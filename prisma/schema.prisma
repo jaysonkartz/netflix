@@ -63,7 +63,7 @@ model verificationToken {
 
 model Movie {
   id String @id @default(auto()) @map("_id") @db.ObjectId
-  titles String
+  titles String?
   description String
   videoUrl String
   thumbnailUrl String
